@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_fondo2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:layout_marginTop="40dp"
+        android:visibility="visible"
+        android:src="@drawable/logo_ciisa"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:drawableEnd="@drawable/linea_abajo"
+            android:drawableRight="@drawable/linea_abajo"
+            android:gravity="start"
+            android:text="Usuarios conectados(2)"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/benjaonline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/radio_button"
+            android:gravity="start"
+            android:onClick="siguiente"
+            android:text="Benjamin Navarrete"
+            android:textColor="#C6C2C2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/davidonline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/radio_button"
+            android:gravity="start"
+            android:onClick="siguiente"
+            android:text="David Savedra"
+            android:textColor="#C6C2C2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/usuariosDesconectados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:drawableEnd="@drawable/linea_abajo"
+            android:drawableRight="@drawable/linea_abajo"
+            android:gravity="start"
+            android:text="Usuarios desconectados(1)"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Crisdisable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Christopher Morales"
+            android:textColor="#858080"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="5dp"
+            android:onClick="siguiente"
+            android:text="@string/chatClan" />
+    </LinearLayout>
+
+
+</LinearLayout>

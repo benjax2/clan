@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clan Online</string>
+    <string name="user">Email</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrar">Registrar</string>
+    <string name="chatClan">Ir al chat del clan!</string>
+</resources>
